@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Perfect Night</title>
+</head>
+
+<body>
+    <header>
+        <div class="tituloylogo">
+            <a href="./index.html">
+                <h3>PERFECT NIGHT</h3>
+            </a>
+            <a href="./index.html"><img src="imagenes/logopaginaweb.png" alt="logo de html5" /></a>
+        </div>
+        <nav>
+            <div>
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul>
+                    <li><a href="./informacion.html">Información</a></li>
+                    <li><a href="./resenias.html">Reseñas</a></li>
+                    <li><a href="./quienessomos.html">¿Quiénes somos?</a></li>
+                    <li><a href="./micarrito.html">Carrito</a></li>
+                    <li><a href="./ayuda.html">Ayuda</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>PLANIFICA TU NOCHE!</h2>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <h3>¿En qué podemos ayudarte?</h3>
+
+        <p>¿Hubo algún problema?</p>
+        <p>¿Querés hacer una devolución?</p>
+
+        <div>
+            <h4>Comunicate con nosotros</h4>
+            <h5>Dejanos tu mensaje para asi poder ayudarte</h5>
+        </div>
+
+        <div class="formulario">
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="1" required></textarea>
+
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <a href=""><img src="./imagenes/logoinsta.png" alt="instagram"></a>
+        <a href=""><img src="./imagenes/logowpp.png" alt="whatsapp"></a>
+        <a href=""><img src="./imagenes/logoyt.png" alt="youtube"></a>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
